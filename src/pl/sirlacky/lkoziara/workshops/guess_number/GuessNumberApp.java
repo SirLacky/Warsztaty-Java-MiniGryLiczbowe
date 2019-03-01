@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class GuessNumberApp {
 
-        public static void main(String[]args){
+    public static void main(String[] args) {
 
 
-            System.out.println("Witaj w grze w zgadywanie liczb. Program losuje liczbę od 1 do 100 twoim zadaniem jest próba odgadnięcia w jak najmniejszej liczbie kroków tej liczby");
-try {
+        System.out.println("Witaj w grze w zgadywanie liczb. Program losuje liczbę od 1 do 100 twoim zadaniem jest próba odgadnięcia w jak najmniejszej liczbie kroków tej liczby");
+        try {
             int x;
             int hit;
             int numberOfHits = 1;
@@ -18,11 +18,11 @@ try {
             Random r = new Random();
             x = r.nextInt(101);
 
-            Scanner scan = new Scanner (System.in);
+            Scanner scan = new Scanner(System.in);
             System.out.println("Podaj liczbę: ");
             hit = scan.nextInt();
 
-            do  {
+            do {
                 if (hit == x) {
                     System.out.println("ZGADŁEŚ GRATULACJE!! trafienie nastąpiło po: " + numberOfHits + "strzałów");
                     break;
@@ -36,11 +36,10 @@ try {
                     hit = scan.nextInt();
                     numberOfHits++;
                 }
-            }while (true);
-}
-catch (InputMismatchException ime){
-    System.err.println("Nie podałeś prawidłowej liczby, spróbuj ponownie.");
-}
+            } while (true);
+        } catch (InputMismatchException ime) {
+            System.err.println("Nie podałeś prawidłowej liczby, spróbuj ponownie.");
+        }
 
     }
 
