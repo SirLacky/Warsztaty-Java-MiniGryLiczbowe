@@ -79,7 +79,10 @@ public class DiceSymApp {
                 }
             } while (howMany != 0);
 
-            System.out.println("Wylosowane liczby: " + Arrays.toString(result));
+            System.err.println("Wylosowane liczby: " + Arrays.toString(result));
+
+
+
         } catch (InputMismatchException ime) {
             System.err.println("Wprowadzono nieprawidłową wartość, spróbuj ponownie");
         }
