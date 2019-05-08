@@ -1,4 +1,4 @@
-# Warsztaty-Java-MiniGryLiczbowe
+﻿# Warsztaty-Java-MiniGryLiczbowe
 Moje pierwsze aplikacje w Javie. Przygotowane na warsztaty w CodersLab i rozwijane w wolnej chwili.
 
 ## Zawartość
@@ -34,7 +34,7 @@ Gra symulująca grę w Lotto. Wytypuj 6 liczb z zakresu 1-49 i sprawdź czy wygr
 #### Przykład rozgrywki:
 
 
-![Screenshot](lib/Lotto.jpeg)
+![Screenshot](lib/Lotto.gif)
 
 #### Planowane aktualizacje:
  - Dodanie prostych ikonek i animacji zwiększających atrakcyjność graficzną programu.
